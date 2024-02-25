@@ -1,0 +1,25 @@
+﻿
+<local:MyHint Margin="0,2,0,15" IsWarn="False" Text="进入游戏前，请确认以下内容" />
+
+<local:MyCard Title="注册及登录" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <local:MyHint Text="本服仅支持LittleSkin登录" />
+        <local:MyListItem  Margin="-5,2,-5,8" Logo="https://www.microsoft.com/favicon.ico" Title="点击跳转注册界面" Info="LittleSkin" EventType="打开网页" EventData="https://littleskin.cn/auth/register" Type="Clickable"/>
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="请注册完毕后在启动器内登录以启动"/>
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="群组及反馈" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <local:MyHint Text="谨防电信诈骗，拒绝网络交易"/>
+        <Image Height="100" Margin="0,15,0,15" HorizontalAlignment="Center" Source="https://fun-pcl.netlify.app/resources/QQ.png"/>
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,0" HorizontalAlignment="Center" Text="扫码加入QQ群"/>
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="致谢" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="参与及支持名单"/>
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="UQ   Mycleb   toptpo   YogSothoth   Mervin   SGGZ   jacket"/>
+    </StackPanel>
+</local:MyCard>
